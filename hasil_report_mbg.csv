@@ -1,0 +1,136 @@
+﻿No,Tahun,Bulan,Tanggal Lengkap,Provinsi,Kabupaten/Kota,Jumlah Korban,Dirawat RS,Status/Penyebab,Penyebab / Keterangan,Bulan_Num,Tanggal,Flag_KLB,Flag_Disetop,Skor_D1_Korban,Skor_D2_Patogen,Skor_D3_KLB,Skor_D4_Rekurensi,Skor_D5_DataLengkap,Skor Risiko,Kategori Risiko,Level Risiko,Rekomendasi,Kategori Penyebab
+1,2025,Januari,2025-01-05,Jawa Barat,Bogor,45,8,Makanan berbau,Makanan berbau/busuk,1,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+2,2025,Januari,2025-01-07,Jawa Tengah,Semarang,32,5,Kontaminasi bakteri,Kontaminasi bakteri,1,,False,False,12,15,0,10,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+3,2025,Januari,2025-01-10,Di Yogyakarta,Sleman,58,10,Higienitas rendah,Higienitas rendah,1,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+4,2025,Januari,2025-01-12,Jawa Barat,Bandung,38,6,Cold chain rusak,Cold chain rusak,1,,False,False,12,18,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Rantai Dingin / Penyimpanan
+5,2025,Januari,2025-01-15,Jawa Timur,Malang,42,7,Makanan berbau,Makanan berbau/busuk,1,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+6,2025,Januari,2025-01-18,Banten,Tangerang,35,5,Kontaminasi bakteri,Kontaminasi bakteri,1,,False,False,12,15,0,7,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+7,2025,Januari,2025-01-20,Jawa Tengah,Solo,41,8,Higienitas rendah,Higienitas rendah,1,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+8,2025,Januari,2025-01-22,Jawa Barat,Bekasi,48,9,Makanan berbau,Makanan berbau/busuk,1,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+9,2025,Januari,2025-01-25,Di Yogyakarta,Bantul,39,6,Cold chain rusak,Cold chain rusak,1,,False,False,12,18,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Rantai Dingin / Penyimpanan
+10,2025,Januari,2025-01-28,Jawa Timur,Surabaya,52,10,Kontaminasi bakteri,Kontaminasi bakteri,1,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+11,2025,Februari,2025-02-02,Jawa Barat,Garut,63,11,Makanan berbau,Makanan berbau/busuk,2,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+12,2025,Februari,2025-02-05,Jawa Tengah,Pekalongan,47,8,Higienitas rendah,Higienitas rendah,2,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+13,2025,Februari,2025-02-08,Jawa Barat,Bandung Barat,87,15,Cold chain rusak,Cold chain rusak,2,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+14,2025,Februari,2025-02-10,Di Yogyakarta,Sleman,54,9,Kontaminasi bakteri,Kontaminasi bakteri,2,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+15,2025,Februari,2025-02-12,Jawa Timur,Surabaya,62,12,Kontaminasi bakteri,Kontaminasi bakteri,2,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+16,2025,Februari,2025-02-15,Jawa Tengah,Magelang,44,7,Makanan berbau,Makanan berbau/busuk,2,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+17,2025,Februari,2025-02-18,Jawa Barat,Cianjur,56,10,Cold chain rusak,Cold chain rusak,2,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+18,2025,Februari,2025-02-20,Di Yogyakarta,Bantul,41,7,Makanan berbau,Makanan berbau/busuk,2,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+19,2025,Februari,2025-02-23,Jawa Timur,Kediri,49,8,Higienitas rendah,Higienitas rendah,2,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+20,2025,Februari,2025-02-26,Sulawesi Utara,Manado,38,6,Kontaminasi bakteri,Kontaminasi bakteri,2,,False,False,12,15,0,5,8,40,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+21,2025,Maret,2025-03-02,Jawa Barat,Bogor,71,13,Makanan berbau,Makanan berbau/busuk,3,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+22,2025,Maret,2025-03-05,Jawa Tengah,Semarang,58,10,Cold chain rusak,Cold chain rusak,3,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+23,2025,Maret,2025-03-08,Jawa Barat,Garut,125,22,Makanan tidak layak,Makanan berbau/busuk,3,,False,False,25,5,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+24,2025,Maret,2025-03-10,Di Yogyakarta,Kulonprogo,46,8,Higienitas rendah,Higienitas rendah,3,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+25,2025,Maret,2025-03-12,Jawa Timur,Mojokerto,52,9,Kontaminasi bakteri,Kontaminasi bakteri,3,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+26,2025,Maret,2025-03-15,Jawa Tengah,Kudus,78,14,Kontaminasi bakteri,Kontaminasi bakteri,3,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+27,2025,Maret,2025-03-18,Jawa Barat,Sukabumi,64,11,Makanan berbau,Makanan berbau/busuk,3,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+28,2025,Maret,2025-03-20,Banten,Serang,43,7,Cold chain rusak,Cold chain rusak,3,,False,False,12,18,0,7,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Rantai Dingin / Penyimpanan
+29,2025,Maret,2025-03-23,Jawa Timur,Blitar,50,9,Higienitas rendah,Higienitas rendah,3,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+30,2025,Maret,2025-03-25,Sulawesi Tengah,Palu,54,9,Higienitas rendah,Higienitas rendah,3,,False,False,18,12,0,3,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+31,2025,Maret,2025-03-28,Jawa Tengah,Purwokerto,67,12,Kontaminasi bakteri,Kontaminasi bakteri,3,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+32,2025,April,2025-04-02,Jawa Barat,Depok,55,10,Makanan berbau,Makanan berbau/busuk,4,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+33,2025,April,2025-04-05,Di Yogyakarta,Sleman,48,8,Cold chain rusak,Cold chain rusak,4,,False,False,12,18,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Rantai Dingin / Penyimpanan
+34,2025,April,2025-04-08,Jawa Timur,Pasuruan,41,7,Higienitas rendah,Higienitas rendah,4,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+35,2025,April,2025-04-10,Banten,Tangerang,47,8,Makanan berbau,Makanan berbau/busuk,4,,False,False,12,5,0,7,8,32,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+36,2025,April,2025-04-12,Jawa Tengah,Klaten,39,6,Kontaminasi bakteri,Kontaminasi bakteri,4,,False,False,12,15,0,10,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+37,2025,April,2025-04-15,Jawa Barat,Tasikmalaya,62,11,Cold chain rusak,Cold chain rusak,4,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+38,2025,April,2025-04-18,Jawa Timur,Madiun,44,7,Makanan berbau,Makanan berbau/busuk,4,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+39,2025,April,2025-04-20,Di Yogyakarta,Bantul,51,9,Higienitas rendah,Higienitas rendah,4,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+40,2025,April,2025-04-23,Sulawesi Tenggara,Bombana,53,0,Makanan berbau tidak sedap,Makanan berbau/busuk,4,,False,False,18,5,0,0,8,31,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+41,2025,April,2025-04-25,Jawa Tengah,Salatiga,46,8,Kontaminasi bakteri,Kontaminasi bakteri,4,,False,False,12,15,0,10,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+42,2025,Mei,2025-05-02,Jawa Barat,Cirebon,58,10,Makanan berbau,Makanan berbau/busuk,5,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+43,2025,Mei,2025-05-05,Jawa Barat,Cianjur,89,16,Cold chain rusak,Cold chain rusak,5,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+44,2025,Mei,2025-05-08,Jawa Tengah,Boyolali,47,8,Higienitas rendah,Higienitas rendah,5,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+45,2025,Mei,2025-05-10,Di Yogyakarta,Gunungkidul,42,7,Kontaminasi bakteri,Kontaminasi bakteri,5,,False,False,12,15,0,10,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+46,2025,Mei,2025-05-12,Jawa Timur,Jember,53,9,Makanan berbau,Makanan berbau/busuk,5,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+47,2025,Mei,2025-05-15,Jawa Barat,Bandung,61,11,Cold chain rusak,Cold chain rusak,5,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+48,2025,Mei,2025-05-18,Jawa Timur,Mojokerto,65,11,Kontaminasi bakteri,Kontaminasi bakteri,5,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+49,2025,Mei,2025-05-20,Jawa Tengah,Temanggung,44,7,Higienitas rendah,Higienitas rendah,5,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+50,2025,Mei,2025-05-23,Banten,Lebak,38,6,Makanan berbau,Makanan berbau/busuk,5,,False,False,12,5,0,7,8,32,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+51,2025,Mei,2025-05-25,Jawa Barat,Karawang,52,9,Kontaminasi bakteri,Kontaminasi bakteri,5,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+52,2025,Mei,2025-05-28,Di Yogyakarta,Sleman,73,13,Higienitas rendah,Higienitas rendah,5,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+53,2025,Juni,2025-06-03,Jawa Timur,Sidoarjo,36,6,Cold chain rusak,Cold chain rusak,6,,False,False,12,18,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Rantai Dingin / Penyimpanan
+54,2025,Juni,2025-06-05,Jawa Tengah,Purbalingga,32,5,Makanan berbau,Makanan berbau/busuk,6,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+55,2025,Juni,2025-06-10,Jawa Tengah,Wonogiri,28,4,Makanan berbau,Makanan berbau/busuk,6,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+56,2025,Juni,2025-06-12,Jawa Barat,Subang,41,7,Kontaminasi bakteri,Kontaminasi bakteri,6,,False,False,12,15,0,10,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+57,2025,Juni,2025-06-15,Di Yogyakarta,Bantul,29,5,Higienitas rendah,Higienitas rendah,6,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+58,2025,Juni,2025-06-18,Jawa Timur,Tulungagung,33,5,Makanan berbau,Makanan berbau/busuk,6,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+59,2025,Juni,2025-06-22,Kalimantan Barat,Pontianak,35,6,Kontaminasi bakteri,Kontaminasi bakteri,6,,False,False,12,15,0,3,8,38,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+60,2025,Juli,2025-07-02,Jawa Barat,Purwakarta,45,8,Cold chain rusak,Cold chain rusak,7,,False,False,12,18,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Rantai Dingin / Penyimpanan
+61,2025,Juli,2025-07-05,Jawa Tengah,Demak,38,6,Makanan berbau,Makanan berbau/busuk,7,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+62,2025,Juli,2025-07-08,Jawa Barat,Bogor,56,9,Cold chain rusak,Cold chain rusak,7,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+63,2025,Juli,2025-07-10,Di Yogyakarta,Kulonprogo,42,7,Higienitas rendah,Higienitas rendah,7,,False,False,12,12,0,10,8,42,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+64,2025,Juli,2025-07-12,Jawa Timur,Banyuwangi,51,9,Kontaminasi bakteri,Kontaminasi bakteri,7,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+65,2025,Juli,2025-07-15,Jawa Tengah,Kebumen,39,6,Makanan berbau,Makanan berbau/busuk,7,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+66,2025,Juli,2025-07-18,Banten,Pandeglang,44,7,Cold chain rusak,Cold chain rusak,7,,False,False,12,18,0,7,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Rantai Dingin / Penyimpanan
+67,2025,Juli,2025-07-20,Sulawesi Utara,Manado,48,8,Higienitas rendah,Higienitas rendah,7,,False,False,12,12,0,5,8,37,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+68,2025,Juli,2025-07-23,Jawa Barat,Indramayu,47,8,Kontaminasi bakteri,Kontaminasi bakteri,7,,False,False,12,15,0,10,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+69,2025,Juli,2025-07-25,Jawa Timur,Probolinggo,40,7,Makanan berbau,Makanan berbau/busuk,7,,False,False,12,5,0,10,8,35,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+70,2025,Agustus,2025-08-02,Jawa Tengah,Cilacap,62,11,Cold chain rusak,Cold chain rusak,8,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+71,2025,Agustus,2025-08-05,Jawa Barat,Bandung Barat,156,28,Makanan tidak layak,Makanan berbau/busuk,8,,False,False,25,5,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+72,2025,Agustus,2025-08-08,Di Yogyakarta,Bantul,54,9,Higienitas rendah,Higienitas rendah,8,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+73,2025,Agustus,2025-08-10,Jawa Timur,Nganjuk,47,8,Kontaminasi bakteri,Kontaminasi bakteri,8,,False,False,12,15,0,10,8,45,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+74,2025,Agustus,2025-08-12,Jawa Tengah,Grobogan,98,18,Kontaminasi bakteri,Kontaminasi bakteri,8,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+75,2025,Agustus,2025-08-15,Jawa Barat,Sukabumi,71,13,Makanan berbau,Makanan berbau/busuk,8,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+76,2025,Agustus,2025-08-18,Jawa Tengah,Brebes,59,10,Cold chain rusak,Cold chain rusak,8,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+77,2025,Agustus,2025-08-20,Jawa Timur,Lumajang,52,9,Higienitas rendah,Higienitas rendah,8,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+78,2025,Agustus,2025-08-22,Di Yogyakarta,Sleman,87,15,Cold chain rusak,Cold chain rusak,8,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+79,2025,Agustus,2025-08-25,Jawa Barat,Ciamis,63,11,Kontaminasi bakteri,Kontaminasi bakteri,8,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+80,2025,Agustus,2025-08-28,Banten,Tangerang Selatan,68,12,Makanan berbau,Makanan berbau/busuk,8,,False,False,18,5,0,7,8,38,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+81,2025,September,2025-09-02,Jawa Tengah,Pati,74,13,Cold chain rusak,Cold chain rusak,9,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+82,2025,September,2025-09-05,Jawa Barat,Kuningan,66,11,Higienitas rendah,Higienitas rendah,9,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+83,2025,September,2025-09-08,Jawa Barat,Cianjur,176,28,Makanan MBG katering,Makanan berbau/busuk,9,,False,False,25,5,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+84,2025,September,2025-09-10,Jawa Timur,Magetan,58,10,Kontaminasi bakteri,Kontaminasi bakteri,9,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+85,2025,September,2025-09-12,Di Yogyakarta,Gunungkidul,61,11,Makanan berbau,Makanan berbau/busuk,9,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+86,2025,September,2025-09-15,Jawa Tengah,Rembang,53,9,Cold chain rusak,Cold chain rusak,9,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+87,2025,September,2025-09-17,Sulawesi Tengah,Kepulauan Banggai,251,35,Ikan cakalang terkontaminasi,Kontaminasi bakteri,9,,False,False,25,15,0,3,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+88,2025,September,2025-09-17,Jawa Barat,Garut,150,22,Makanan MBG tidak layak,Makanan berbau/busuk,9,,False,False,25,5,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+89,2025,September,2025-09-20,Jawa Timur,Ponorogo,69,12,Higienitas rendah,Higienitas rendah,9,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+90,2025,September,2025-09-23,Jawa Barat,Bandung Barat,364,48,KLB - makanan MBG,Makanan berbau/busuk,9,,False,False,30,5,0,10,8,53,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Makanan Umum
+91,2025,September,2025-09-24,Kalimantan Barat,Ketapang,20,5,Menu daging hiu,Kontaminasi bakteri,9,,False,False,12,15,0,3,8,38,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+92,2025,September,2025-09-26,Jawa Tengah,Wonosobo,82,14,Kontaminasi bakteri,Kontaminasi bakteri,9,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+93,2025,Oktober,2025-10-02,Jawa Barat,Cirebon,95,16,Makanan berbau,Makanan berbau/busuk,10,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+94,2025,Oktober,2025-10-05,Jawa Barat,Bogor,142,18,Penyimpanan tidak tepat,Cold chain rusak,10,,False,False,25,18,0,10,8,61,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+95,2025,Oktober,2025-10-08,Jawa Tengah,Magelang,78,13,Higienitas rendah,Higienitas rendah,10,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+96,2025,Oktober,2025-10-10,Di Yogyakarta,Sleman,187,25,Makanan tidak higienis,Higienitas rendah,10,,False,False,25,12,0,10,8,55,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Higienitas Rendah
+97,2025,Oktober,2025-10-12,Jawa Timur,Gresik,89,15,Kontaminasi bakteri,Kontaminasi bakteri,10,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+98,2025,Oktober,2025-10-15,Jawa Tengah,Semarang,95,12,Kontaminasi bakteri,Kontaminasi bakteri,10,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+99,2025,Oktober,2025-10-18,Jawa Barat,Bekasi,102,17,Cold chain rusak,Cold chain rusak,10,,False,False,25,18,0,10,8,61,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+100,2025,Oktober,2025-10-20,Jawa Timur,Lamongan,71,12,Makanan berbau,Makanan berbau/busuk,10,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+101,2025,Oktober,2025-10-22,Jawa Barat,Garut,198,26,Makanan berbau,Makanan berbau/busuk,10,,False,False,25,5,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+102,2025,Oktober,2025-10-25,Di Yogyakarta,Bantul,84,14,Higienitas rendah,Higienitas rendah,10,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+103,2025,Oktober,2025-10-28,Jawa Timur,Surabaya,165,22,Kontaminasi bakteri,Kontaminasi bakteri,10,,False,False,25,15,0,10,8,58,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+104,2025,November,2025-11-02,Jawa Tengah,Kendal,76,13,Cold chain rusak,Cold chain rusak,11,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+105,2025,November,2025-11-05,Jawa Barat,Bogor,142,18,Penyimpanan tidak tepat,Cold chain rusak,11,,False,False,25,18,0,10,8,61,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+106,2025,November,2025-11-08,Jawa Timur,Tuban,68,11,Higienitas rendah,Higienitas rendah,11,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+107,2025,November,2025-11-10,Di Yogyakarta,Kulonprogo,59,10,Makanan berbau,Makanan berbau/busuk,11,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+108,2025,November,2025-11-12,Jawa Tengah,Kudus,89,14,Higienitas rendah,Higienitas rendah,11,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+109,2025,November,2025-11-15,Jawa Barat,Tasikmalaya,93,15,Kontaminasi bakteri,Kontaminasi bakteri,11,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+110,2025,November,2025-11-18,Jawa Timur,Bojonegoro,72,12,Cold chain rusak,Cold chain rusak,11,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+111,2025,November,2025-11-20,Jawa Timur,Surabaya,78,10,Bahan makanan kadaluarsa,Bahan kadaluarsa,11,,False,False,18,5,5,10,8,46,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+112,2025,November,2025-11-23,Jawa Tengah,Purworejo,81,13,Makanan berbau,Makanan berbau/busuk,11,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+113,2025,November,2025-11-25,Jawa Barat,Banjar,64,11,Higienitas rendah,Higienitas rendah,11,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+114,2025,November,2025-11-28,Di Yogyakarta,Bantul,102,16,Makanan berbau,Makanan berbau/busuk,11,,False,False,25,5,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+115,2025,Desember,2025-12-02,Jawa Tengah,Batang,73,12,Cold chain rusak,Cold chain rusak,12,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+116,2025,Desember,2025-12-05,Sulawesi Selatan,Makassar,89,11,Higienitas rendah,Higienitas rendah,12,,False,False,18,12,0,0,8,38,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+117,2025,Desember,2025-12-08,Di Yogyakarta,Bantul,156,20,Cold chain rusak,Cold chain rusak,12,,False,False,25,18,0,10,8,61,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+118,2025,Desember,2025-12-10,Jawa Timur,Situbondo,67,11,Kontaminasi bakteri,Kontaminasi bakteri,12,,False,False,18,15,0,10,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+119,2025,Desember,2025-12-12,Jawa Barat,Cianjur,85,14,Makanan berbau,Makanan berbau/busuk,12,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+120,2025,Desember,2025-12-15,Jawa Tengah,Pemalang,79,13,Higienitas rendah,Higienitas rendah,12,,False,False,18,12,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+121,2025,Desember,2025-12-18,Jawa Barat,Bandung Barat,112,15,Kontaminasi bakteri,Kontaminasi bakteri,12,,False,False,25,15,0,10,8,58,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+122,2025,Desember,2025-12-20,Jawa Timur,Sampang,61,10,Cold chain rusak,Cold chain rusak,12,,False,False,18,18,0,10,8,54,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+123,2025,Desember,2025-12-23,Di Yogyakarta,Sleman,94,15,Makanan berbau,Makanan berbau/busuk,12,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+124,2025,Desember,2025-12-28,Jawa Tengah,Semarang,98,13,Makanan berbau,Makanan berbau/busuk,12,,False,False,18,5,0,10,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+No,Tahun,Bulan,Tanggal Lengkap,Provinsi,Kabupaten/Kota,0,Dirawat RS,Status/Penyebab,Kategori Penyebab,0,,False,False,5,5,0,0,4,14,Rendah,🟢,Pemantauan rutin,Kontaminasi Makanan Umum
+125,2026,Januari,2026-01-08,Jawa Tengah,Grobogan,811,115,Sebagian masih dirawat,Kontaminasi bakteri,1,,False,False,35,15,0,10,8,68,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+126,2026,Januari,2026-01-10,Jawa Timur,Mojokerto,411,48,Sebagian sembuh,Kontaminasi bakteri,1,,False,False,30,15,0,10,8,63,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+127,2026,Januari,2026-01-11,Jawa Tengah,Wonogiri,206,25,Sebagian sembuh,Makanan berbau/busuk,1,,False,False,25,5,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+128,2026,Januari,2026-01-12,Sulawesi Barat,Majene,61,40,Masih dirawat,Kontaminasi bakteri,1,,False,False,18,15,0,0,8,41,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Bakteri
+129,2026,Januari,2026-01-15,Nusa Tenggara Barat,Lombok Timur,132,18,Dalam pemantauan,Cold chain rusak,1,,False,False,25,18,0,0,8,51,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Rantai Dingin / Penyimpanan
+130,2026,Januari,2026-01-20,Sulawesi Utara,Tomohon,35,8,Dalam perawatan,Higienitas rendah,1,,False,False,12,12,0,5,8,37,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Higienitas Rendah
+131,2026,Januari,2026-01-26,Jawa Barat,Cianjur,204,4,Sebagian sembuh,Makanan berbau/busuk,1,,False,False,25,5,0,10,8,48,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+132,2026,Januari,2026-01-28,Jawa Tengah,Kudus,521,52,Masih dirawat,Kontaminasi bakteri,1,,False,False,35,15,0,10,8,68,Tinggi,🟠,"Intervensi prioritas, audit SPPG",Kontaminasi Bakteri
+133,2026,Januari,2026-01-30,Nusa Tenggara Timur,Manggarai Barat,132,20,Dalam investigasi,Makanan berbau/busuk,1,,False,False,25,5,0,0,8,38,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Kontaminasi Makanan Umum
+135,2026,Maret,,Dki Jakarta,jakarta barat,56,,,dugaan cloud chain rusak,3,1 maret 2026,False,False,18,8,0,0,10,36,Sedang,🟡,"Pemantauan intensif, peningkatan SOP hygiene",Dugaan / Belum Terverifikasi

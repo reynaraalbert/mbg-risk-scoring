@@ -33,58 +33,108 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-BG_CARD      = "#ffffff"
+# Warna primer yang masih digunakan secara dinamis (sebagian besar sudah didelegasikan ke CSS/Streamlit)
 BLUE_PRIMARY = "#4a90d9"
 BLUE_DARK    = "#2c6fad"
-BLUE_LIGHT   = "#cce3f8"
-BLUE_ACCENT  = "#7bb8f0"
-TEXT_MAIN    = "#1a2f4a"
-TEXT_MUTED   = "#6b8caa"
-BORDER       = "#b8d6f0"
-CHART_BG     = "rgba(240,246,255,0)"
-GRID_COLOR   = "#d0e8f8"
-FONT_COLOR   = "#1a2f4a"
 
 st.markdown("""
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap');
+    
+    :root {
+        --bg-app: linear-gradient(160deg, #e8f4ff 0%, #f5faff 50%, #edf6ff 100%);
+        --bg-sidebar: linear-gradient(180deg, #d6ecff 0%, #e8f4ff 100%);
+        --border-color: #b8d6f0;
+        --text-main: #1a2f4a;
+        --text-muted: #6b8caa;
+        --card-bg: #ffffff;
+        --card-border: #b8d6f0;
+        --card-top: #4a90d9;
+        --card-value: #2c6fad;
+        --title-color: #2c6fad;
+        --title-border: #cce3f8;
+        --info-bg: linear-gradient(135deg, #e8f4ff 0%, #d6ecff 100%);
+        --info-border: #7bb8f0;
+        --alert-bg: #fffbe6;
+        --alert-border: #ffe58f;
+        --alert-text: #5c4200;
+        --alert-title: #7c5c00;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg-app: linear-gradient(160deg, #0e1117 0%, #161b22 50%, #0e1117 100%);
+            --bg-sidebar: linear-gradient(180deg, #161b22 0%, #0e1117 100%);
+            --border-color: #30363d;
+            --text-main: #c9d1d9;
+            --text-muted: #8b949e;
+            --card-bg: #161b22;
+            --card-border: #30363d;
+            --card-top: #58a6ff;
+            --card-value: #58a6ff;
+            --title-color: #58a6ff;
+            --title-border: #30363d;
+            --info-bg: linear-gradient(135deg, #1f2428 0%, #24292e 100%);
+            --info-border: #30363d;
+            --alert-bg: #2d2613;
+            --alert-border: #665000;
+            --alert-text: #d2c8a3;
+            --alert-title: #fad24b;
+        }
+    }
+
     html, body, [class*="css"] { font-family: 'Nunito', sans-serif; }
-    .stApp { background: linear-gradient(160deg, #e8f4ff 0%, #f5faff 50%, #edf6ff 100%); }
+    .stApp { background: var(--bg-app) !important; }
     [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #d6ecff 0%, #e8f4ff 100%) !important;
-        border-right: 1px solid #b8d6f0;
+        background: var(--bg-sidebar) !important;
+        border-right: 1px solid var(--border-color);
     }
     [data-testid="stSidebarContent"] { background: transparent !important; }
+    
     .page-header {
         background: linear-gradient(135deg, #4a90d9 0%, #2c6fad 60%, #1a5499 100%);
         border-radius: 16px; padding: 28px 36px; margin-bottom: 24px;
-        box-shadow: 0 4px 20px rgba(74,144,217,0.25);
+        box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     }
     .page-header h1 { color: #ffffff !important; font-size: clamp(20px, 3vw, 30px); font-weight: 900; margin: 0 0 6px 0; }
     .page-header p { color: #c8e0f7; font-size: 14px; margin: 0; }
+    
     .metric-card {
-        background: #ffffff; border: 1.5px solid #b8d6f0; border-top: 4px solid #4a90d9;
+        background: var(--card-bg); border: 1.5px solid var(--card-border); border-top: 4px solid var(--card-top);
         border-radius: 14px; padding: 18px 16px 14px; text-align: center;
-        box-shadow: 0 2px 12px rgba(74,144,217,0.10);
+        box-shadow: 0 2px 12px rgba(0,0,0,0.05);
     }
-    .metric-card .label { font-size: 11px; color: #6b8caa; text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 8px; }
-    .metric-card .value { font-size: clamp(22px, 3vw, 32px); font-weight: 900; color: #2c6fad; font-family: 'JetBrains Mono', monospace; line-height: 1; }
-    .metric-card .sub { font-size: 11px; color: #6b8caa; margin-top: 6px; font-weight: 600; }
+    .metric-card .label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1.2px; font-weight: 700; margin-bottom: 8px; }
+    .metric-card .value { font-size: clamp(22px, 3vw, 32px); font-weight: 900; color: var(--card-value); font-family: 'JetBrains Mono', monospace; line-height: 1; }
+    .metric-card .sub { font-size: 11px; color: var(--text-muted); margin-top: 6px; font-weight: 600; }
+    
     .val-kritis { color: #e03e5a !important; }
     .val-tinggi { color: #e07830 !important; }
-    .section-title { font-size: 15px; font-weight: 800; color: #2c6fad; padding: 10px 0 6px; border-bottom: 2px solid #cce3f8; margin-bottom: 12px; }
-    .info-box { background: linear-gradient(135deg, #e8f4ff 0%, #d6ecff 100%); border: 1.5px solid #7bb8f0; border-left: 5px solid #4a90d9; border-radius: 10px; padding: 16px 20px; color: #1a2f4a; font-size: 14px; font-weight: 600; }
+    
+    .section-title { font-size: 15px; font-weight: 800; color: var(--title-color); padding: 10px 0 6px; border-bottom: 2px solid var(--title-border); margin-bottom: 12px; }
+    
+    .info-box { background: var(--info-bg); border: 1.5px solid var(--info-border); border-left: 5px solid #4a90d9; border-radius: 10px; padding: 16px 20px; color: var(--text-main); font-size: 14px; font-weight: 600; }
+    
     .stDownloadButton > button { background: linear-gradient(135deg, #4a90d9, #2c6fad) !important; color: white !important; border: none !important; border-radius: 10px !important; font-weight: 700 !important; padding: 10px 20px !important; width: 100% !important; }
-    [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3, [data-testid="stSidebar"] p, [data-testid="stSidebar"] span, [data-testid="stSidebar"] label { color: #1a2f4a !important; }
-    .footer { text-align: center; padding: 16px; color: #6b8caa; font-size: 12px; font-weight: 600; border-top: 1px solid #b8d6f0; margin-top: 24px; }
+    
+    [data-testid="stSidebar"] h2, [data-testid="stSidebar"] h3, [data-testid="stSidebar"] p, [data-testid="stSidebar"] span, [data-testid="stSidebar"] label { color: var(--text-main) !important; }
+    
+    .footer { text-align: center; padding: 16px; color: var(--text-muted); font-size: 12px; font-weight: 600; border-top: 1px solid var(--border-color); margin-top: 24px; }
+    
+    /* Custom Alert */
+    .custom-alert {
+        background: var(--alert-bg); border: 1.5px solid var(--alert-border); border-left: 5px solid #faad14;
+        border-radius: 12px; padding: 18px 22px; margin: 10px 0;
+    }
+    .custom-alert-title { font-size: 18px; font-weight: 800; color: var(--alert-title); margin-bottom: 6px; }
+    .custom-alert-body { color: var(--alert-text); font-size: 14px; font-weight: 600; line-height: 1.6; }
 </style>
 """, unsafe_allow_html=True)
 
 
 def chart_layout(**kwargs):
     base = dict(
-        paper_bgcolor=CHART_BG, plot_bgcolor=CHART_BG,
-        font=dict(color=FONT_COLOR, family='Nunito'),
+        font=dict(family='Nunito'),
         margin=dict(t=16, b=16, l=8, r=8),
     )
     base.update(kwargs)
@@ -94,10 +144,9 @@ def chart_layout(**kwargs):
 
 def alert_box(icon, title, body):
     st.markdown(f"""
-    <div style='background:#fffbe6;border:1.5px solid #ffe58f;border-left:5px solid #faad14;
-    border-radius:12px;padding:18px 22px;margin:10px 0;'>
-        <div style='font-size:18px;font-weight:800;color:#7c5c00;margin-bottom:6px;'>{icon} {title}</div>
-        <div style='color:#5c4200;font-size:14px;font-weight:600;line-height:1.6;'>{body}</div>
+    <div class='custom-alert'>
+        <div class='custom-alert-title'>{icon} {title}</div>
+        <div class='custom-alert-body'>{body}</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -172,8 +221,8 @@ with st.sidebar:
                 style="height:56px;width:56px;object-fit:contain;border-radius:50%;
                 box-shadow:0 2px 8px rgba(0,0,0,0.2);flex-shrink:0;" />
             <div>
-                <div style="font-size:15px;font-weight:900;color:#1a2f4a;line-height:1.2;">MBG Risk Scoring</div>
-                <div style="font-size:11px;font-weight:600;color:#4a90d9;line-height:1.3;">Program Makan Bergizi Gratis</div>
+                <div style="font-size:15px;font-weight:900;color:var(--text-main);line-height:1.2;">MBG Risk Scoring</div>
+                <div style="font-size:11px;font-weight:600;color:var(--card-top);line-height:1.3;">Program Makan Bergizi Gratis</div>
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -357,9 +406,9 @@ with col_l:
     pie_data.columns = ['Level', 'Jumlah']
     fig_pie = px.pie(pie_data, values='Jumlah', names='Level', hole=0.58,
         color='Level', color_discrete_map={'Kritis': '#e03e5a', 'Tinggi': '#e07830', 'Sedang': '#c8970a', 'Rendah': '#1f9e5e'})
-    fig_pie.update_layout(**chart_layout(legend=dict(orientation='h', yanchor='bottom', y=-0.25, font=dict(color=FONT_COLOR))))
-    fig_pie.update_traces(textinfo='label+percent', textfont=dict(size=12, color=FONT_COLOR),
-        marker=dict(line=dict(color='#ffffff', width=2)))
+    fig_pie.update_layout(**chart_layout(legend=dict(orientation='h', yanchor='bottom', y=-0.25)))
+    fig_pie.update_traces(textinfo='label+percent', textfont=dict(size=12),
+        marker=dict(line=dict(color='rgba(255,255,255,0.2)', width=1)))
     st.plotly_chart(fig_pie, use_container_width=True)
 
 with col_r:
@@ -370,11 +419,11 @@ with col_r:
         color_continuous_scale=[[0, '#a8d8f8'], [0.35, BLUE_PRIMARY], [0.65, '#e07830'], [1, '#e03e5a']],
         range_color=[0, 100], labels={'Total_Korban': 'Total Korban', 'Rata_Skor': 'Rata² Skor'})
     fig_bar.update_layout(**chart_layout(
-        yaxis=dict(categoryorder='total ascending', gridcolor=GRID_COLOR, tickfont=dict(color=FONT_COLOR)),
-        xaxis=dict(gridcolor=GRID_COLOR, tickfont=dict(color=FONT_COLOR)),
-        coloraxis_colorbar=dict(title=dict(text='Skor', font=dict(color=FONT_COLOR)), tickfont=dict(color=FONT_COLOR))
+        yaxis=dict(categoryorder='total ascending'),
+        xaxis=dict(),
+        coloraxis_colorbar=dict(title=dict(text='Skor'))
     ))
-    fig_bar.update_traces(texttemplate='%{text:,}', textposition='outside', textfont=dict(color=FONT_COLOR, size=11))
+    fig_bar.update_traces(texttemplate='%{text:,}', textposition='outside', textfont=dict(size=11))
     st.plotly_chart(fig_bar, use_container_width=True)
 
 # ── Tren Bulanan ──────────────────────────────────────────────────────────────
@@ -391,10 +440,10 @@ if not tren.empty and len(tren) > 1:
         line=dict(color='#e07830', width=2.5),
         marker=dict(size=7, color='#e07830', line=dict(color='white', width=1.5)), yaxis='y2'))
     fig_tren.update_layout(**chart_layout(
-        yaxis=dict(title='Jumlah Korban', gridcolor=GRID_COLOR, tickfont=dict(color=FONT_COLOR)),
-        yaxis2=dict(title='Jumlah Insiden', overlaying='y', side='right', tickfont=dict(color=FONT_COLOR)),
-        xaxis=dict(gridcolor=GRID_COLOR, tickfont=dict(color=FONT_COLOR), tickangle=-30),
-        legend=dict(orientation='h', y=1.08, font=dict(color=FONT_COLOR)),
+        yaxis=dict(title='Jumlah Korban'),
+        yaxis2=dict(title='Jumlah Insiden', overlaying='y', side='right'),
+        xaxis=dict(tickangle=-30),
+        legend=dict(orientation='h', y=1.08),
         margin=dict(t=30, b=40, l=8, r=8)
     ))
     st.plotly_chart(fig_tren, use_container_width=True)
@@ -410,9 +459,9 @@ if not df_plot.empty:
         hover_data=hover_cols,
         labels={'Jumlah Korban': 'Jumlah Korban', 'Skor Risiko': 'Skor Risiko (0–100)'})
     fig_scatter.update_layout(**chart_layout(
-        xaxis=dict(gridcolor=GRID_COLOR, tickfont=dict(color=FONT_COLOR)),
-        yaxis=dict(gridcolor=GRID_COLOR, tickfont=dict(color=FONT_COLOR)),
-        legend=dict(font=dict(color=FONT_COLOR))
+        xaxis=dict(),
+        yaxis=dict(),
+        legend=dict()
     ))
     fig_scatter.update_traces(marker=dict(line=dict(color='white', width=1)))
     st.plotly_chart(fig_scatter, use_container_width=True)
